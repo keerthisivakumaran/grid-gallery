@@ -1,0 +1,132 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#a0d2eb;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1><span style="color:#66CC66">Card Gallery</span></h2>
+<hr>
+
+<h2>Nature</h2>
+<p>Everything in nature invites us constantly to be what we are.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+	<a href="https://www.nationalgeographic.com/science/article/mountains">
+      <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202112/photo-1571607182000-b1d278eb9b_1200x768.jpeg?size=690:388" alt="Mountains" style="width:100%">
+	  </a>
+      <h3> Mountains</h3>
+      <p>A mountain is an elevated portion of the Earth's crust, generally with steep sides that show significant exposed bedrock.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a href="https://www.light2015.org/Home/LearnAboutLight/Light-in-Nature.html">
+    <img src="https://c.ndtvimg.com/2022-09/mib2rqeo_iceland_625x300_09_September_22.jpg" alt="Lights" style="width:100%">
+	</a>
+      <h3>Lights</h3>
+      <p>In the north, the phenomenon is called the aurora borealis or the northern lights. In the Southern Hemisphere, it's the aurora australis, or southern lights. The name is different and it turns out that the view from each pole can be different too.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a href="https://en.wikipedia.org/wiki/Nature">
+    <img src="https://cdn.unenvironment.org/2022-11/Mangroves%2C_Orpheus_Island%2C_Australia.jpeg" alt="Nature" style="width:100%">
+	</a>
+      <h3>Nature</h3>
+      <p>Nature has been found to have a calming quality on our stress levels. Beautiful natural surroundings and scenery can feel like worlds away from our home and work life and consequently causes us to put any associated stress on the back burner.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+	<a href="https://www.holidify.com/collections/waterfalls-near-chennai">
+    <img src="https://www.rivieratravel.co.uk/blog/wp-content/uploads/2019/07/famous-waterfalls-Iguazu-Waterfalls-Argentina-.jpg" alt="Waterfalls" style="width:100%">
+	</a>
+      <h3> water falls</h3>
+      <p>Negative ions are molecules that cause the feeling of well-being and they are plentiful around waterfalls! Inhaling negative ions delivers them into our bloodstream where they cause biochemical reactions that increase serotonin levels. </p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <img src="https://static.vecteezy.com/system/resources/previews/001/929/087/original/many-different-animals-in-the-forest-scene-free-vector.jpg"  style="width:90%">
+  <h3>Importans of nature</h3>
+  <p>It provides us the air to breathe, the water to drink, the soil to make a home, and the land to stay. </p>
+  <p>We should enjoy nature without disturbing its balance</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
